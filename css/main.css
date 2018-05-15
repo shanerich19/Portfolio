@@ -1,0 +1,431 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.row {
+    max-width: 1400px;
+}
+
+/*Top Section*/
+
+.title-area img {
+  height: 4rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}
+
+.name {
+  size: 4rem;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+  color: black;
+  font-size: 3rem;
+  font-weight: 300;
+  
+}
+
+.centered1 {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.centered1 h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 300;
+  
+}
+
+.top-bar {
+  background-color: black;
+  height: 4rem;
+  opacity: 0.85;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+   background-color: black;
+   color: white;
+   line-height: 4rem;
+   font-weight: 900;
+   font-size: 1rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  color: #03A9F4;
+}
+
+.top-bar-section ul li > a {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (min-width:40em){
+
+  .top-bar .title-area {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .top-bar-section ul {
+    width: 30%;
+    text-align: center;
+  }
+
+  .top-bar-section li {
+    width: 50%;
+  }
+
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 4rem;
+ }
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h4, h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+
+/*About Me Section*/
+
+.about {
+  padding: 3rem 0;
+  background-color: white;
+}
+
+
+.about img {
+  border-radius: 10%;
+}
+
+.about p {
+  font-weight: 300;
+  padding: 0 4rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+/*Work Area*/
+
+.work {
+  padding: 3rem 0;
+  background-color: white;
+  padding-bottom: 3rem;
+}
+
+.work h2 {
+  font-weight: 300;
+}
+
+.work p {
+  text-align: center;
+}
+
+.work img:hover {
+     transform: scale(1.5);
+
+   }
+
+.work a {
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.work img {
+  border-radius: 50%;
+  transition: all .3s;
+  padding:2rem;
+}
+
+
+/*Contact Me*/
+
+.contact h1 {
+  text-align: left;
+  color: white;
+  padding-left: 2rem;
+}
+
+.contact h3 {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-left: 9rem;
+  line-height: 2rem;
+}
+
+.contact {
+  padding: 1rem 0;
+  background-color: black;
+  padding-top: 5rem;
+}
+
+/*Resume*/ 
+
+.resume h2 {
+  color: black;
+  font-weight: 300;
+
+}
+
+.resume h2:hover {
+  color: #03A9F4;
+  font-weight: 300;
+
+}
+
+
+.resume {
+  background-color: white;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+
+
+/*Graphic and Web Page*/
+
+.panel {
+  background: black;
+}
+
+.panel.radius {
+  border-radius: 5%;
+}
+
+.panel a {
+  display: block;
+  overflow: hidden; 
+}
+
+.panel a img {
+  transition: all .3s;
+}
+
+.panel a:hover img {
+  transform: scale(1.5); 
+}
+
+
+.panel h4, .panel h5 {
+  padding-top: 1rem;
+  color: white;
+  text-align: center;
+}
+
+
+.product-grid h1 {
+  padding: 3rem 0;
+}
+
+.product-grid {
+  position: relative;
+  background-color: #fff;
+}
+
+.product-grid::before {
+  content: '';
+  height: 100px; /* the height of the gradient image */
+  width: 100%;
+  background-repeat: no-repeat;
+  background: url(../img/gradient.png);
+  position: absolute;
+  top: -100px; /* the height of the gradient image */
+  left: 0;
+}
+
+.design p {
+  padding: 0 10rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.design {
+   padding: 3rem 0;
+}
+  
+  
+/*Projects Page*/
+
+.projecthero {
+    background:url(../img/practice.jpg) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.posters {
+    background:url(../img/posterhero.png) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.converse {
+    background:url(../img/conversehero.jpg) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.tesla {
+    background:url(../img/teslahero.png) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.gshock {
+    background:url(../img/brochurehero.jpg) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.magazine {
+    background:url(../img/magazinehero.jpg) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.booklet {
+    background:url(../img/typehero.jpg) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.subaru {
+    background:url(../img/subaruhero.jpg) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.cube {
+    background:url(../img/sugacubehero.jpg) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+.projecthero.web1 {
+    background:url(../img/importapparelhero.jpg) no-repeat top center;
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+}
+
+
+.project h1 {
+  padding-top: 3rem;
+}
+
+.project h2 {
+  padding-bottom: 2rem;
+  font-weight: 300;
+  padding-top: 2rem;
+}
+
+.projectinfo p {
+  text-align: center;
+  padding: 0 10rem;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+
+.projectinfo {
+  padding: 5rem 0;
+}
+
+.projectinfo h1 {
+  background-color: black;
+  color:white;
+  height: 1rem;
+}
+
+
+
+/*Footer*/
+
+.social-links i:hover {
+  color: #03A9F4;
+}
+
+.social-links li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.social-links i {
+  color: white;
+  transition: all .3s;
+}
+
+.social-links {
+  font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.list li {
+  padding-left: 2rem;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+footer {
+  background-color: black;
+  padding: .5rem 0;
+}
+
+footer p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover, a:focus {
+  color: #03A9F4;
+}
+
+footer img {
+  height: 5rem;
+  padding-left: 7rem;
+  padding-top: 1rem;
+}
